@@ -17,7 +17,7 @@
 #
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#    
+#
 #    Background Source: http://forum.xda-developers.com/showpost.php?p=37322378
 #
 ##############################################################################
@@ -33,6 +33,7 @@ The new configurable Odoo Web Login Screen
     'website': 'http://www.xubi.me',
     'license': 'AGPL-3',
     'depends': [
+        'website',
     ],
     'data': [
         'data/ir_config_parameter.xml',
